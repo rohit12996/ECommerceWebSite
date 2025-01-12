@@ -2,6 +2,7 @@
 {
     public class Order
     {
+        [Key]
         public int ProductId { get; set; }
 
         public string Name { get; set; } = null!;
